@@ -144,7 +144,7 @@
           <div class="title-area">
             <h2 class="title">O mně</h2>
             <span class="line"></span>
-            <img src="assets/images/omne.jpg" class="pic" alt="me" style="height:400px">
+            <img src="assets/images/omne.jpg" class="pic" alt="me" >
             <p>Jmenuji se XY a jsem osobní fitness trenérka a výživová poradkyně. Kalistenice a zdravému životnímu stylu se věnuji již 9 let. 
               Mou filozií je, že propojení zdravého těla, pozitivní motivované mysli a správné životosprávy je základ úspěchu. 
               Stejně urputně jako pracuji sama na sobě, se snažím pomáhat ostatním naplnit jejich cíle, když se rozhodnou změnit svůj život k lepšímu. 
@@ -564,6 +564,33 @@
   <script type="text/javascript" src="assets/js/wow.js"></script> 
   <!-- progress bar   -->
   <script type="text/javascript" src="assets/js/bootstrap-progressbar.js"></script>  
+
+  <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+    
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+    
+          // Store hash
+          var hash = this.hash;
+    
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+    
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+    </script>
   
  
   <!-- Custom js -->

@@ -434,6 +434,10 @@ img{
   margin-top: 50px;
 }
 
+img .pic {
+  height: 400px;
+}
+
 .single-feature{
 	display: inline;
 	float: left;
@@ -1282,7 +1286,7 @@ img{
     height: auto;    
   }  
 
-  .pic img {
+  img .pic {
     height: 400px;
   }
 }
