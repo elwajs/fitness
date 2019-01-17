@@ -391,7 +391,7 @@ img{
 /* FEATURE */
 /*--------------------*/
 
-#feature{
+#omne{
 	background-color: #fff;
 	display: inline;
 	float: left;
@@ -402,7 +402,7 @@ img{
 .title-area {
   display: inline;
   float: left;
-  padding: 0 150px;
+  padding: 0 110px;
   text-align: center;
   width: 100%;
 }
@@ -434,9 +434,7 @@ img{
   margin-top: 50px;
 }
 
-.pic {
-  height: 400px;
-}
+
 
 .single-feature{
 	display: inline;
@@ -490,6 +488,37 @@ img{
 	float: left;
 	margin-top: 50px;
 	width: 100%;
+}
+
+.obsah {
+  display: flex;
+  padding-top: 50px;
+}
+
+.obsah-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 50px;
+}
+
+
+.pic {
+  height: 400px;
+  margin-right: 90px;
+  margin-bottom: 50px;
+  -webkit-box-shadow: 37px 37px 0px 4px rgba(209,33,82,1);
+-moz-box-shadow: 37px 37px 0px 4px rgba(209,33,82,1);
+box-shadow: 37px 37px 0px 4px rgba(209,33,82,1);
+}
+
+
+.pic-reverse {
+  height: 400px;
+  margin-left: 90px;
+  margin-bottom: 50px;
+  -webkit-box-shadow: 37px 37px 0px 4px rgba(209,33,82,1);
+-moz-box-shadow: 37px 37px 0px 4px rgba(209,33,82,1);
+box-shadow: 37px 37px 0px 4px rgba(209,33,82,1);
 }
 
 
@@ -572,7 +601,7 @@ img{
 /* SERVICE */
 /*--------------------*/
 
-#service{
+#sluzby{
 	background-color: #fff;
 	display: inline;
 	float: left;
@@ -632,7 +661,7 @@ img{
 /*--------------------*/
 
 
-#pricing-table{
+#cenik{
 	background-color: #f8f8f8;
 	display: inline;
 	float: left;
@@ -901,7 +930,7 @@ img{
 
 #single-page-header{
   background-attachment: fixed !important;
-  background-image: url("assets/images/slider-5.jpg");
+  background-image: url("assets/images/404bg.jpg");
   background-repeat: repeat;
   background-size: cover;
   color: #ffffff;
@@ -1073,7 +1102,7 @@ img{
 /* CONTACT PAGE */
 /*--------------------*/
 
-#contact{
+#kontakt{
   display: inline;
   float: left;
   padding: 70px 0;
@@ -1286,9 +1315,6 @@ img{
     height: auto;    
   }  
 
-  img .pic {
-    height: 400px;
-  }
 }
 
 
@@ -1316,6 +1342,18 @@ img{
     margin-bottom: 40px;
   }
   
+  .obsah {
+    flex-direction: column;
+  }
+
+  .pic, .pic-reverse {
+    margin-left: none;
+    margin-right: none;
+  }
+
+  .obsah-reverse {
+    flex-direction: column;
+  }
   .single-counter {
     margin-bottom: 30px;
   }
@@ -1388,6 +1426,18 @@ img{
   }
   .title-area {
     padding: 0 30px;
+  }
+
+  .obsah {
+    flex-direction: column;
+  }
+
+  .pic, .pic-reverse {
+    margin: auto;
+  }
+
+  .obsah p, .obsah-reverse p {
+    margin-top: 50px;
   }
   .single-feature {
     text-align: center;
@@ -1505,6 +1555,17 @@ img{
     margin-bottom: 10px;
   }
 
+  .obsah, .obsah-reverse {
+    padding: 0;
+  }
+  .pic, .pic-reverse {
+    box-shadow: none;
+    width: 300px;
+    height: auto;
+    margin: auto;
+    
+    }
+  
   
 
 }
