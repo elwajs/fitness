@@ -136,12 +136,11 @@ img{
 /*--------------------*/
 
 #menu-area{
-	background-color: none;
-	display: inline;
-	float: left;
-	width: 100%;
-  position: absolute;	
-  z-index: 9999;
+	position: absolute;	
+  z-index: 150;
+  left: 0;
+  top: 0;
+  width: 100%;
 }
 
 #menu-area #navbar {  
