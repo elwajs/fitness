@@ -350,7 +350,7 @@ img{
 .slide-article {
   display: inline;
   float: left;
-  padding-left: 20px;
+  padding-left: 40px;
   padding-right: 20px;
   padding-top: 150px;
   width: 100%;
@@ -1340,7 +1340,7 @@ box-shadow: 37px 37px 0px 4px rgba(209,33,82,1);
   .slide-article {
     padding-left: 60px;
     padding-right: 0;
-    padding-top: 15px;
+    
   }
   .slide-article h1 {
     font-size: 30px;
@@ -1431,7 +1431,7 @@ box-shadow: 37px 37px 0px 4px rgba(209,33,82,1);
     display: none;
   }
   .slide-article {
-    padding-top: 10px;
+    padding-top: 45px;
   }
   .title-area {
     padding: 0 30px;
@@ -1605,7 +1605,7 @@ box-shadow: 37px 37px 0px 4px rgba(209,33,82,1);
     top: 5px;
   }
   .slide-article {
-    padding-top: 0;
+    padding-top: 30px;
     padding-left: 0;
   }
   .slide-article p {
