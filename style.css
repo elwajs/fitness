@@ -1425,6 +1425,7 @@ box-shadow: 37px 37px 0px 4px rgba(209,33,82,1);
   }
   #menu-area #navbar {
     padding-right: 15px;
+    background-color: black;
   }
   .slider-img {
     display: none;
@@ -1573,7 +1574,11 @@ box-shadow: 37px 37px 0px 4px rgba(209,33,82,1);
     margin: auto;
     
     }
-  
+  .obal {
+    /*padding-left: -15px;*/
+    width: 100vw;
+    background-color: rgba(209, 33, 82, 1)
+  }
   
 
 }
