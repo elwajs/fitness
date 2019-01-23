@@ -1418,14 +1418,15 @@ box-shadow: 37px 37px 0px 4px rgba(209,33,82,1);
     padding: 0;
   }  
   .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: #fff;
+    background-color: transparent;
   }  
   #search {
     width: 100%;
   }
   #menu-area #navbar {
     padding-right: 15px;
-    background-color: black;
+    background-color: rgb(90, 90, 90, 0.8);
+    text-align: center;
   }
   .slider-img {
     display: none;
@@ -1581,6 +1582,9 @@ box-shadow: 37px 37px 0px 4px rgba(209,33,82,1);
     background-color: rgba(209, 33, 82, 1)
   }
   
+  .col-md-6 {
+    width: 100%;
+  }
 
 }
 
@@ -1594,6 +1598,9 @@ box-shadow: 37px 37px 0px 4px rgba(209,33,82,1);
   }
   .single-slide img {
     height: 100%;   
+  }
+  .navbar-brand {
+    font-size: 20px;
   }
   #menu-area .navbar-toggle {
     padding: 8px 6px;    
